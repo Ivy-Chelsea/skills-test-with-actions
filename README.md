@@ -14,7 +14,9 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
 </header>
 
 <!--
+
   <<< Author notes: Step 4 >>>
+
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
@@ -39,6 +41,9 @@ Protected branches ensure that collaborators on your repository cannot make irre
 1. _Once you turn on branch protection, Actions can no longer push directly to `main`. You'll need to open the next step on your own._
 
 <!-- Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step. -->
+
+
+Similar to the upload action to send artifacts to the storage, you can use another action built by GitHub to download these previously uploaded artifacts from the `build` job: [`actions/download-artifact`](https://github.com/actions/download-artifact). To save you time, we'll skip that step for this course.
 
 <footer>
 
